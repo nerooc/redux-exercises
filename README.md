@@ -1,9 +1,9 @@
 # React-Redux exercises
-
-### From [course made by Academind on Udemy](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+### From the [react course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) made by Academind on Udemy
 
 Simple tasks to cover the basics of react-redux environment.
 
+---
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
