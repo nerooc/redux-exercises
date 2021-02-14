@@ -1,5 +1,6 @@
 const initialState = {
   counter: 0,
+  results: [],
 };
 
 const reducer = (state = initialState, action) => {
@@ -27,6 +28,22 @@ const reducer = (state = initialState, action) => {
         ...state,
         counter: state.counter - action.value,
       };
+
+    case "STORE":
+      return {
+        ...state,
+        results: [...state.results, state.counter],
+      };
+
+    case "DELETE":
+      const newArray = [...state.results];
+      newArray.splice(action.value, 1);
+
+      return {
+        ...state,
+        results: newArray,
+      };
+
     default:
       return state;
   }
